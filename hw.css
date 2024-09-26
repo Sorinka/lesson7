@@ -1,0 +1,79 @@
+:root{
+    font-size: 24px;
+
+
+} 
+
+
+
+.class1 {
+margin: 8px 32px 32px 16 px;
+padding: 32px 16px;
+border: 1px solid #be1f1f;
+
+}
+
+p:first-child, p:last-child, p:nth-child(3) {
+    color: red;
+
+}
+
+.square {
+    width: 75px;
+    height: 75px;
+    border: 1px solid gray;
+}
+
+.square:hover {
+        border: 1px solid red;
+    }
+
+.parent {
+    width: 50px;
+    height: 250px;
+    border: 1px solid green;
+
+}
+.child {
+    height: calc(50% - 32px);
+    width: 25%;
+    border: 1px solid gray;
+
+}
+
+.heading::after {
+    content: 'dupa';
+}
+
+.heading::before
+ {
+    content: 'inainte';
+
+ }
+
+ .class3 {
+    font-size: 24px;
+
+    p:first-child {
+            font-size: 2em;
+
+    }
+
+    p:last-child {
+        font-size: 2rem;
+
+
+    }
+
+ }
+
+ .class3 {
+
+height: 75vh;
+width: 75vw;
+
+ }
+
+
+
+
